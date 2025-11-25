@@ -1,12 +1,8 @@
 ﻿using ApiAutenticacao.Data;
 using ApiAutenticacao.Models;
 using ApiAutenticacao.Models.DTO;
-using BCrypt.Net;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
-using System.ComponentModel.DataAnnotations;
 using static BCrypt.Net.BCrypt;
 
 namespace ApiAutenticacao.Controllers
@@ -22,59 +18,73 @@ namespace ApiAutenticacao.Controllers
             _context = context;
         }
 
-
+        // CADASTRAR USUÁRIO
         [HttpPost("cadastrar")]
-        public async Task<ActionResult> CadastrarUsuario([FromBody] CadastroUsuarioDTO dadosUsuario)
+        public async Task<IActionResult> CadastrarUsuarioAsync([FromBody] CadastroUsuarioDTO dadosUsuario)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-
             }
-            Usuario? usuarioExistente = await _context.Usuarios.
-                FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
+
+            // Verificar se o email já existe
+            Usuario? usuarioExistente = await _context.Usuarios
+                .FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
 
             if (usuarioExistente != null)
             {
                 return BadRequest(new { mensagem = "Email já cadastrado" });
             }
+
+            // Criar usuário
             Usuario usuario = new Usuario
             {
                 Nome = dadosUsuario.Nome,
                 Email = dadosUsuario.Email,
-                Senha = HashPassword(dadosUsuario.Senha),
-                ConfirmarSenha = dadosUsuario.ConfirmarSenha
+                Senha = HashPassword(dadosUsuario.Senha)
             };
-
 
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
-            return Ok(new 
+            return Ok(new
             {
                 id = usuario.Id,
                 nome = usuario.Nome,
                 email = usuario.Email
-                
             });
+        }
 
+        // LOGIN
+        [HttpPost("login")]
+        public async Task<IActionResult> LoginAsync([FromBody] LoginDTO dadosUsuario)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
+            Usuario? usuarioEncontrado = await _context.Usuarios
+                .FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
 
+            if (usuarioEncontrado == null)
+            {
+                return NotFound("Usuário não encontrado");
+            }
 
+            bool senhaValida = Verify(dadosUsuario.Senha, usuarioEncontrado.Senha);
 
+            if (!senhaValida)
+            {
+                return Unauthorized("Login não realizado. Email ou senha inválidos.");
+            }
 
-
-
-
-
-
-
-
+            return Ok("Login realizado com sucesso");
         }
     }
 }
 
-    
 
 
-     
+
+

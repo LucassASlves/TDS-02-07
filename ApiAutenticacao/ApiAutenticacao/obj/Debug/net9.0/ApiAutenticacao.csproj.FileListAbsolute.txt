@@ -165,3 +165,4 @@ C:\Users\lucas.acandido1\Documents\Clone\TDS02 UC7\ApiAutenticacao\ApiAutenticac
 C:\Users\lucas.acandido1\Documents\Clone\TDS02 UC7\ApiAutenticacao\ApiAutenticacao\obj\Debug\net9.0\ApiAutenticacao.pdb
 C:\Users\lucas.acandido1\Documents\Clone\TDS02 UC7\ApiAutenticacao\ApiAutenticacao\obj\Debug\net9.0\ApiAutenticacao.genruntimeconfig.cache
 C:\Users\lucas.acandido1\Documents\Clone\TDS02 UC7\ApiAutenticacao\ApiAutenticacao\obj\Debug\net9.0\ref\ApiAutenticacao.dll
+C:\Users\lucas.acandido1\Documents\Clone\TDS02 UC7\ApiAutenticacao\ApiAutenticacao\obj\Debug\net9.0\ApiAutenticacao.sourcelink.json

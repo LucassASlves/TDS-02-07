@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|solutionrelative:controllers\\usuarioscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|c:\\users\\lucas.acandido1\\documents\\clone\\tds02 uc7\\apiautenticacao\\apiautenticacao\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|solutionrelative:models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|c:\\users\\lucas.acandido1\\documents\\clone\\tds02 uc7\\apiautenticacao\\apiautenticacao\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|c:\\users\\lucas.acandido1\\documents\\clone\\tds02 uc7\\apiautenticacao\\apiautenticacao\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Migrations\\20251115003152_CriacaoInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251115003152_CriacaoInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|c:\\users\\lucas.acandido1\\documents\\clone\\tds02 uc7\\apiautenticacao\\apiautenticacao\\models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|solutionrelative:models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|c:\\users\\lucas.acandido1\\documents\\clone\\tds02 uc7\\apiautenticacao\\apiautenticacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17D34F9-69EE-4110-B71A-10AA843B929D}|ApiAutenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20251115003152_CriacaoInicial.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Migrations\\20251115003152_CriacaoInicial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251115003152_CriacaoInicial.cs",
-              "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Migrations\\20251115003152_CriacaoInicial.cs",
-              "RelativeToolTip": "Migrations\\20251115003152_CriacaoInicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T00:31:52.447Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,59 +36,33 @@
               "RelativeDocumentMoniker": "Controllers\\UsuariosControllers.cs",
               "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Controllers\\UsuariosControllers.cs",
               "RelativeToolTip": "Controllers\\UsuariosControllers.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T00:27:51.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CadastroUsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Models\\DTO\\CadastroUsuarioDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\CadastroUsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Models\\DTO\\CadastroUsuarioDTO.cs",
-              "RelativeToolTip": "Models\\DTO\\CadastroUsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T23:00:16.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T22:52:00.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T01:06:32.008Z",
+              "WhenOpened": "2025-11-25T00:26:17.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Models\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Models\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:09:34.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\lucas.acandido1\\Documents\\Clone\\TDS02 UC7\\ApiAutenticacao\\ApiAutenticacao\\Models\\Usuario.cs",
               "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T00:42:36.636Z",
               "EditorCaption": ""
